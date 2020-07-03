@@ -25,7 +25,8 @@ Used properties are:
 
 ## Azure DevOps authentication
 If you do not want to use Azure DevOPs PAT token you can use Azue CLI login command
-- az login
+- __az login__
+
 Once you have autneticated sucessfuly you can skip the Azure DevOps PAT authetnication.
 
 ## Runnin the tool
