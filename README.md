@@ -1,4 +1,4 @@
-# Azure DevOps - DAtabricks Release sync tool
+# Azure DevOps - Databricks Release sync tool
 
 The pupose of the tool is to keep in sync the Release data from Azure DevOPs with the one in Azure Databircks.
 When building a DataOps pipline Release artifacts from Azure DevOps (Build or release pipline) are deployed in Azure Databricks. 
@@ -14,12 +14,12 @@ This tool checks the list of avaliable releases for a specific definition and th
 # Secrets and Auth
 All configuration data is loaded from a properties file under __secrets/env.properties__
 Used properties are:
-- AZDO_PAT=<Azure DevOps PAT token>
-- AZDO_ORG=<Azure DevOps Organization URL>
-- AZDO_PRJ=<Azure DevOps project name>
-- AZDO_RD_NAME=<Azure DevOps Release definition name>
-- DBCK_TOKEN=<Databricks Auth token>
-- DBCK_URL=<Azure DAtabricks URL>
+- AZDO_PAT=__Azure DevOps PAT token__
+- AZDO_ORG=__Azure DevOps Organization URL__
+- AZDO_PRJ=__Azure DevOps project name__
+- AZDO_RD_NAME=__<Azure DevOps Release definition name__
+- DBCK_TOKEN=__Databricks Auth token__
+- DBCK_URL=__Azure DAtabricks URL__
 
 # TIPs
 
