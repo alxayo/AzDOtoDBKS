@@ -32,3 +32,13 @@ Once you have autneticated sucessfuly you can skip the Azure DevOps PAT authetni
 ## Runnin the tool
 The tool is craeted as a bash so that it can be ran from any environemnt.
 If you would like to runni it regularly, you can craete Azure DevOps Pipline with a BASH script task and scheduled trigger. In case you use this approach there is no need to use Azrue DevOPs authetnication in the pipline. 
+
+
+# Example
+
+![Azure DevOps Release pipline with release definition](https://github.com/alxayo/AzDOtoDBKS/blob/master/img/AzDO_releases.PNG)
+![Databricks workspace folder with deployed releases ](https://github.com/alxayo/AzDOtoDBKS/blob/master/img/dbks_releasefolder.PNG)
+
+If you run the tool with the set-up above the tool will report that Release-32 from Databricks workspace is not avaliable in Azure DevOps Release pipline. As such it's a candaidate for removal.
+
+
